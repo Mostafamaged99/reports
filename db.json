@@ -1,0 +1,202 @@
+{
+  "candidate-exp-years-count": [
+    {
+      "1": 57,
+      "2": 6,
+      "11": 1
+    }
+  ],
+  "candidate-institutes-count": [
+    {
+      "Al-Ahram Canadian University": 1,
+      "alexandria university": 2,
+      "benha university": 2,
+      "cairo university": 4,
+      "helwan university": 2,
+      "mansoura university": 2,
+      "nahda university": 2,
+      "stanford university": 2,
+      "university of lincoln": 2,
+      "university of ottawa": 2
+    }
+  ],
+
+  "position-open-days": [
+    {
+      "avgOpenDays": "10",
+      "positionId": "9jG9PPEHNNsxF6y0ma8YC",
+      "positionName": "New for Many Evaluations"
+    },
+    {
+      "avgOpenDays": "41",
+      "positionId": "vizBIULs45w7hQfQSJgtb",
+      "positionName": "New pos with many status"
+    },
+    {
+      "avgOpenDays": "7",
+      "positionId": "NHv_2SMQcZS4wszLCpXTx",
+      "positionName": "rEQ TO BE TUREDN"
+    }
+  ],
+  "agency-active-positions-count": [
+    {
+      "positionTitle": "Internal link",
+      "company": "org 1"
+    },
+    {
+      "positionTitle": "New position",
+      "company": "org 2"
+    },
+    {
+      "positionTitle": "New position",
+      "company": "org 3"
+    }
+  ],
+  "position-country-count": [
+    {
+      "count": 38,
+      "country": "Egypt"
+    },
+    {
+      "count": 1,
+      "country": "Bosnia and Herzegovina"
+    }
+  ],
+  "totalActivePositions": 39,
+  "job-requests-count": [
+    {
+      "pendingJobRequests": 1,
+      "publishedJobRequests": 31,
+      "total": 32
+    }
+  ],
+
+  "positions-hiring-priority-count": [
+    {
+      "Medium": 38,
+      "Urgent": 1
+    }
+  ],
+  "positions-workplace-type-count": [
+    {
+      "On-Site": 36,
+      "Remote": 3
+    }
+  ],
+  "positions-employment-type-count": [
+    {
+      "Freelance": 2,
+      "Full-Time": 35,
+      "Internship": 1,
+      "Part-Time": 1
+    }
+  ],
+  "position-hiring-requests": [
+    {
+      "external": 39,
+      "internal": 4
+    }
+  ],
+  "approval_requests_count": [
+    {
+      "Approved": 37,
+      "Pending": 42,
+      "Rejected": 6
+    }
+  ],
+
+  "requisitions-count": [
+    {
+      "Expansion": 50,
+      "jobHolderPromotion": 1,
+      "replacement": 3,
+      "total": 54
+    }
+  ],
+  "applications-position-count": [
+    {
+      "applicationsCount": 30,
+      "positionId": "9jG9PPEHNNsxF6y0ma8YC",
+      "positionTitle": "New for Many Evaluations"
+    },
+    {
+      "applicationsCount": 2,
+      "positionId": "vizBIULs45w7hQfQSJgtb",
+      "positionTitle": "New pos with many status"
+    },
+    {
+      "applicationsCount": 3,
+      "positionId": "NHv_2SMQcZS4wszLCpXTx",
+      "positionTitle": "rEQ TO BE TUREDN"
+    }
+  ],
+  "applications-status-count": [
+    {
+      "applicationsCountByStatus": {
+        "Matched": 8
+      },
+      "positionId": "CyroUc77AsqJkRDgLUI90",
+      "positionTitle": "5 stages"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 25
+      },
+      "positionId": "9jG9PPEHNNsxF6y0ma8YC",
+      "positionTitle": "New for Many Evaluations"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 6
+      },
+      "positionId": "knpzuMbdeEZ7-PdeP1iWs",
+      "positionTitle": "New Eval Cycle"
+    }
+  ],
+  "applications-stage-count": [
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 2
+      },
+      "positionId": "6PQHS8bkeXgEeoE1QFgOk",
+      "positionTitle": "New position with new elim"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 5,
+        "Talentino Screening Interview": 3
+      },
+      "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
+      "positionTitle": "TEST App Position"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 8,
+        "Technical Interview": 1
+      },
+      "positionId": "CyroUc77AsqJkRDgLUI90",
+      "positionTitle": "5 stages"
+    }
+  ],
+
+  "evaluation_forms_count": [
+    {
+      "Completed": 58,
+      "Pending": 102,
+      "total": 160
+    }
+  ],
+  "interviews-type-count": [
+    {
+      "Form": 4,
+      "Text": 11,
+      "Video": 787
+    }
+  ],
+  "interviews-language-count": [
+    {
+      "AR": 8,
+      "EN": 794
+    }
+  ]
+}
