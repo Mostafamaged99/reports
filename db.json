@@ -511,6 +511,245 @@
       },
       "positionId": "knpzuMbdeEZ7-PdeP1iWs",
       "positionTitle": "New Eval Cycle"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 1,
+        "Matched": 7
+      },
+      "positionId": "yqIh2SuYDaPrRZYGLn2Q9",
+      "positionTitle": "frontend developer"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 3
+      },
+      "positionId": "y-un4TuGANsmnss7c6dIo",
+      "positionTitle": "test internal"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 9
+      },
+      "positionId": "DbxTH5vzGO7q_jgExJb_n",
+      "positionTitle": "NEW POSITION WITH NOT 100 EVAL"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 7
+      },
+      "positionId": "5AZNcV-Kk-vwmEYQJq-BX",
+      "positionTitle": "Full Position"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 1
+      },
+      "positionId": "vizBIULs45w7hQfQSJgtb",
+      "positionTitle": "New pos with many status"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 1
+      },
+      "positionId": "9AsPvv-O1189p4clxcvGv",
+      "positionTitle": "no mcq ques"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 1
+      },
+      "positionId": "NHv_2SMQcZS4wszLCpXTx",
+      "positionTitle": "rEQ TO BE TUREDN"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 4,
+        "Matched": 1
+      },
+      "positionId": "5Vku1Yx93LM_cOyasVKkN",
+      "positionTitle": "Three Evaluations"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 1
+      },
+      "positionId": "RlSlZ56DP_aK5dBYhZk7q",
+      "positionTitle": "eh htetms7i"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 1
+      },
+      "positionId": "vkZzoPgv77YWOoUkftbZx",
+      "positionTitle": "eh htetms7i"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 1
+      },
+      "positionId": "FW905HB9ttyxjleM9BzFX",
+      "positionTitle": "test others"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 11
+      },
+      "positionId": "KDHDHnKXr_406LFirhm-o",
+      "positionTitle": "Evaluation Position"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 4
+      },
+      "positionId": "wNISpNAvfftXFDM_oXE-n",
+      "positionTitle": "New EVal Weight Limit"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 1,
+        "Matched": 1
+      },
+      "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
+      "positionTitle": "TEST App Position"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 1
+      },
+      "positionId": "tEQJd4g1dPytxFBdOwSvT",
+      "positionTitle": "test"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Evaluated": 10
+      },
+      "positionId": "rQzeZHk_6dMaB1EM0hJ64",
+      "positionTitle": "New Req Bgd test b2a"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Invited": 3
+      },
+      "positionId": "DsDs9Ec4g25PExRDPu995",
+      "positionTitle": "New Position for Eval Test"
+    },
+    {
+      "applicationsCountByStatus": {
+        "Matched": 1
+      },
+      "positionId": "qFvXLFgswnSvzmV61b4lR",
+      "positionTitle": "New Test 3'yaret"
+    }
+  ],
+  "all-position-stages-status": [
+    {
+      "statusName": "Invited"
+    },
+    {
+      "statusName": "test9"
+    },
+    {
+      "statusName": "bhbh"
+    },
+    {
+      "statusName": "Rejected"
+    },
+    {
+      "statusName": "gyhg"
+    },
+    {
+      "statusName": "Blacklisted"
+    },
+    {
+      "statusName": "re"
+    },
+    {
+      "statusName": "test again"
+    },
+    {
+      "statusName": "Recommended"
+    },
+    {
+      "statusName": "Scheduled"
+    },
+    {
+      "statusName": "Disqualified"
+    },
+    {
+      "statusName": "Hired"
+    },
+    {
+      "statusName": "Evaluated"
+    },
+    {
+      "statusName": "Accepted"
+    },
+    {
+      "statusName": "test"
+    },
+    {
+      "statusName": "test2"
+    },
+    {
+      "statusName": "Eliminated"
+    },
+    {
+      "statusName": "Rejected Offer"
+    },
+    {
+      "statusName": "Evaluation Form Sent"
+    },
+    {
+      "statusName": "Not Recommended"
+    },
+    {
+      "statusName": "Evaluation Reminder"
+    },
+    {
+      "statusName": "test2829"
+    },
+    {
+      "statusName": "Declined"
+    },
+    {
+      "statusName": "vv"
+    },
+    {
+      "statusName": "test282"
+    },
+    {
+      "statusName": "Accepted Offer"
+    },
+    {
+      "statusName": "test99"
+    },
+    {
+      "statusName": "Interviewed"
+    },
+    {
+      "statusName": "Ignored Offer"
+    },
+    {
+      "statusName": "No Show"
+    },
+    {
+      "statusName": "Applied"
+    },
+    {
+      "statusName": "test again why"
+    },
+    {
+      "statusName": "test7"
+    },
+    {
+      "statusName": "Shortlisted"
+    },
+    {
+      "statusName": "Matched"
+    },
+    {
+      "statusName": "Offered"
     }
   ],
   "applications-stage-count": [

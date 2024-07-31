@@ -12,6 +12,8 @@ code {
     monospace;
 } */
 
+
+/* !global styles for chart! */
 .chart-container {
   height: 400px; /* Set the height to 400px */
   width: 100%; /* Ensure the width is 100% */
@@ -21,17 +23,56 @@ code {
   box-sizing: border-box;
 }
 
+/* !design for navbar! */
 .nav-link,
 .nav-link:hover {
-  color: #ffffff; /* Default text color */
-  transition: background-color 1s ease; /* Smooth transition for background color */
+  color: #ffffff; 
+  transition: background-color 1s ease; 
+  border-radius: 25px; 
 }
-
 .nav-link.active,
 .nav-link:hover {
-  background-color: #cce5ff; /* Light blue background for the active link */
-  color: #004085; /* Dark text color for readability */
-  font-weight: bold; /* Bold text for the active link */
-  border-radius: 25px; /* Rounded corners */
-  padding: 8px 12px; /* Padding inside the link */
+  background-color: #cce5ff; 
+  color: #004085; 
+  font-weight: bold; 
+  border-radius: 25px; 
+  padding: 8px 12px; 
 }
+
+/* !design for dropdown! */
+.dropdown-container {
+  position: relative;
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.dropdown-header {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none; 
+}
+
+.dropdown-container:hover .dropdown-menu {
+  display: block; 
+}
+
+.dropdown-item {
+  padding: 10px; 
+  cursor: pointer;
+}
+
+
+
