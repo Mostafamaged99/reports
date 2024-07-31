@@ -1,38 +1,48 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { ColorRing } from "react-loader-spinner";
+import React from "react";
+import PositionCount from "./PositionCount";
+import StatusCount from "./StatusCount";
+import RequisitionsCount from "./RequisitionsCount";
+import StageCount from "./StageCount";
 
 export default function Applications() {
-  const [loading, setLoading] = useState(true);
-  async function getApplicationsData(chart) {
-    return await axios
-      .get(`http://localhost:5000/${chart}`)
-      .then((res) => console.log(res.data))
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }
-
-  useEffect(() => {
-    getApplicationsData("requisitions-count");
-    getApplicationsData("applications-position-count");
-    getApplicationsData("applications-status-count");
-    getApplicationsData("applications-stage-count");
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="d-flex justify-content-center vh-100 align-items-center">
-        <ColorRing
-          visible={true}
-          height="80"
-          width="80"
-          ariaLabel="color-ring-loading"
-          wrapperStyle={{}}
-          wrapperClass="color-ring-wrapper"
-          colors={["#000", "#000", "#000", "#000", "#000"]}
-        />
+  return (
+    <>
+      <div className="container">
+        <div className="row my-3">
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="countryCount text-center mb-3">
+              <h3>Number of Applications Per Positions</h3>
+              <div className="card py-3 ">
+                <PositionCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="openDays text-center ">
+              <h3>Candidates per Status per Position</h3>
+              <div className="card py-3 ">
+                <StatusCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="agencyCount text-center mb-3">
+              <h3>Requisition Reason</h3>
+              <div className="card py-3 ">
+                <RequisitionsCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="requestsCount text-center ">
+              <h3>Number of Candidates per Stage</h3>
+              <div className="card py-3 ">
+                <StageCount />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
-  return <div>Applications</div>;
+    </>
+  );
 }

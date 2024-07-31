@@ -5,13 +5,13 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function ExpYearsChart() {
+export default function AgencyCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/candidate-exp-years-count`)
+      .get(`http://localhost:5000/agency-active-positions-count`)
       .then((res) => {
         const labels = Object.keys(res.data[0]);
         const values = Object.values(res.data[0]);
@@ -23,9 +23,9 @@ export default function ExpYearsChart() {
               label: "Candidates per years of Experience",
               data: values,
               backgroundColor: [
-                "rgba(54, 162, 235, 0.2)", 
+                "rgba(54, 162, 235, 0.2)",
                 "rgb(40, 167, 69,0.2)", 
-                "rgba(255, 206, 86, 0.2)", 
+                "rgba(255, 206, 86, 0.2)",
                 "rgba(75, 192, 192, 0.2)", 
               ],
               hoverBackgroundColor: [
@@ -82,7 +82,7 @@ export default function ExpYearsChart() {
         <Doughnut
           data={chartData}
           options={chartOptions}
-          className="w-full md:w-30rem"
+          className="w-full "
           style={{ height: "400px", width: "100%" }}
         />
       </div>

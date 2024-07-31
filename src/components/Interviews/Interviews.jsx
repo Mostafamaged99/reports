@@ -1,37 +1,30 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { ColorRing } from "react-loader-spinner";
+import React from "react";
+import TypeCount from "./TypeCount";
+import LanguageCount from "./LanguageCount";
 
 export default function Interviews() {
-  const [loading, setLoading] = useState(true);
-  async function getInterviewsData(chart) {
-    return await axios
-      .get(`http://localhost:5000/${chart}`)
-      .then((res) => console.log(res.data))
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }
-
-  useEffect(() => {
-    getInterviewsData("interviews-type-count");
-    getInterviewsData("interviews-language-count");
-    getInterviewsData("evaluation_forms_count");
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="d-flex justify-content-center vh-100 align-items-center">
-        <ColorRing
-          visible={true}
-          height="80"
-          width="80"
-          ariaLabel="color-ring-loading"
-          wrapperStyle={{}}
-          wrapperClass="color-ring-wrapper"
-          colors={["#000", "#000", "#000", "#000", "#000"]}
-        />
+  return (
+    <>
+      <div className="container">
+        <div className="row my-3">
+          <div className="col-md-6 justify-content-center d-flex text-center">
+            <div className="candidatesPerEx text-center mb-3">
+              <h3>Interview Types</h3>
+              <div className="card py-3 ">
+                <TypeCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center">
+            <div className="topInsitute text-center ">
+              <h3>Interview Setup Language</h3>
+              <div className="card py-3 ">
+                <LanguageCount />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
-  return <div>Interviews</div>;
+    </>
+  );
 }

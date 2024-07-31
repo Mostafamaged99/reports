@@ -1,17 +1,24 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Audio } from "react-loader-spinner";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Doughnut } from "react-chartjs-2";
-ChartJS.register(ArcElement, Tooltip, Legend);
+import {
+  Chart as ChartJS,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
+ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-export default function InstituteChart() {
+export default function EmploymentCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/candidate-institutes-count`)
+      .get(`http://localhost:5000/positions-employment-type-count`)
       .then((res) => {
         const labels = Object.keys(res.data[0]);
         const values = Object.values(res.data[0]);
@@ -20,19 +27,19 @@ export default function InstituteChart() {
           labels: labels,
           datasets: [
             {
-              label: "Candidates per years of Experience",
+              label: "",
               data: values,
               backgroundColor: [
-                "rgba(54, 162, 235, 0.2)", // Light blue
-                "rgb(40, 167, 69,0.2)", // Lighter green color
-                "rgba(255, 206, 86, 0.2)", // Light yellow
-                "rgba(75, 192, 192, 0.2)", // Light teal
+                "rgba(54, 162, 235, 0.2)", 
+                "rgb(40, 167, 69,0.2)", 
+                "rgba(255, 206, 86, 0.2)", 
+                "rgba(75, 192, 192, 0.2)",
               ],
               hoverBackgroundColor: [
-                "rgb(54, 162, 235)", // Blue
-                "rgb(28, 139, 55)", // Green color
-                "rgb(255, 206, 86)", // Yellow
-                "rgb(75, 192, 192)", // Teal
+                "rgb(54, 162, 235)", 
+                "rgb(28, 139, 55)", 
+                "rgb(255, 206, 86)", 
+                "rgb(75, 192, 192)", 
               ],
               borderColor: [
                 "rgb(54, 162, 235)",
@@ -49,8 +56,14 @@ export default function InstituteChart() {
           responsive: true,
           plugins: {
             legend: {
-              labels: {
-                usePointStyle: true,
+              display: false,
+            },
+          },
+          scales: {
+            y: {
+              title: {
+                display: true,
+                text: "Number of positions",
               },
             },
           },
@@ -78,11 +91,11 @@ export default function InstituteChart() {
 
   return (
     <>
-      <div className="chart-container d-flex justify-content-center align-items-center">
-        <Doughnut
+      <div className="chart-container d-flex justify-content-center align-items-center px-3">
+        <Bar
           data={chartData}
           options={chartOptions}
-          className="w-full md:w-30rem"
+          className="w-full "
           style={{ height: "400px", width: "100%" }}
         />
       </div>

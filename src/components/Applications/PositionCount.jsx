@@ -5,7 +5,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function InstituteChart() {
+export default function PositionCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
@@ -13,10 +13,10 @@ export default function InstituteChart() {
   const [selectedLabel, setSelectedLabel] = useState("");
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/candidate-institutes-count`)
+      .get(`http://localhost:5000/applications-position-count`)
       .then((res) => {
-        const labelsData = Object.keys(res.data[0]);
-        const valuesData = Object.values(res.data[0]);
+        const labelsData = res?.data.map((res) => res.positionTitle);
+        const valuesData = res?.data.map((res) => res.applicationsCount);
         setLabels(labelsData);
         setSelectedLabel(labelsData[0]);
 
@@ -24,7 +24,7 @@ export default function InstituteChart() {
           labels: labelsData,
           datasets: [
             {
-              label: "Candidates per insitute",
+              label: "Applications count by position",
               data: valuesData,
               backgroundColor: [
                 "rgba(54, 162, 235, 0.2)",
@@ -94,6 +94,7 @@ export default function InstituteChart() {
             );
           })}
         </select>
+
         <div className="chart-container d-flex justify-content-center align-items-center">
           <Doughnut
             data={chartData}
@@ -106,3 +107,5 @@ export default function InstituteChart() {
     </>
   );
 }
+
+

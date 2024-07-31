@@ -1,39 +1,57 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { ColorRing } from "react-loader-spinner";
+import React from "react";
+import PriortyCount from "./PriortyCount";
+import HiringCount from "./HiringCount";
+import RequestsCount from "./RequestsCount";
+import WorkPlaceCount from "./WorkPlaceCount";
+import EmploymentCount from "./EmploymentCount";
 
 export default function HiringRequests() {
-  const [loading, setLoading] = useState(true);
-  async function getHiringRequestsData(chart) {
-    return await axios
-      .get(`http://localhost:5000/${chart}`)
-      .then((res) => console.log(res.data))
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }
-
-  useEffect(() => {
-    getHiringRequestsData("positions-hiring-priority-count");
-    getHiringRequestsData("positions-workplace-type-count");
-    getHiringRequestsData("positions-employment-type-count");
-    getHiringRequestsData("position-hiring-requests");
-    getHiringRequestsData("approval_requests_count");
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="d-flex justify-content-center vh-100 align-items-center">
-        <ColorRing
-          visible={true}
-          height="80"
-          width="80"
-          ariaLabel="color-ring-loading"
-          wrapperStyle={{}}
-          wrapperClass="color-ring-wrapper"
-          colors={["#000", "#000", "#000", "#000", "#000"]}
-        />
+  return (
+    <>
+      <div className="container">
+        <div className="row my-3">
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="PriortyCount text-center mb-3">
+              <h3>Hiring Priority</h3>
+              <div className="card py-3 ">
+                <PriortyCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="HiringCount text-center ">
+              <h3>Internal vs External Hiring Requests</h3>
+              <div className="card py-3 ">
+                <HiringCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="RequestsCount text-center mb-3">
+              <h3>Hiring Requests</h3>
+              <div className="card py-3 ">
+                <RequestsCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="WorkPlaceCount text-center ">
+              <h3>Workplace Type </h3>
+              <div className="card py-3 ">
+                <WorkPlaceCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="EmploymentCount text-center ">
+              <h3>Employment Type </h3>
+              <div className="card py-3 ">
+                <EmploymentCount />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
-  return <div>HiringRequests</div>;
+    </>
+  );
 }

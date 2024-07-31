@@ -1,38 +1,48 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { ColorRing } from "react-loader-spinner";
+import React from "react";
+import CountryCount from "./CountryCount";
+import OpenDays from "./Opendays";
+import AgencyCount from "./AgencyCount";
+import RequestsCount from "./RequestsCount";
 
 export default function Positions() {
-  const [loading, setLoading] = useState(true);
-  async function getPositionsData(chart) {
-    return await axios
-      .get(`http://localhost:5000/${chart}`)
-      .then((res) => console.log(res.data))
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }
-
-  useEffect(() => {
-    getPositionsData("position-country-count");
-    getPositionsData("position-open-days");
-    getPositionsData("job-requests-count");
-    getPositionsData("agency-active-positions-count");
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="d-flex justify-content-center vh-100 align-items-center">
-        <ColorRing
-          visible={true}
-          height="80"
-          width="80"
-          ariaLabel="color-ring-loading"
-          wrapperStyle={{}}
-          wrapperClass="color-ring-wrapper"
-          colors={["#000", "#000", "#000", "#000", "#000"]}
-        />
+  return (
+    <>
+      <div className="container">
+        <div className="row my-3">
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="countryCount text-center mb-3">
+              <h3>Number of Vacancies per Country</h3>
+              <div className="card py-3 ">
+                <CountryCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="openDays text-center ">
+              <h3>Position Average Opening Days</h3>
+              <div className="card py-3 ">
+                <OpenDays />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="agencyCount text-center mb-3">
+              <h3>Active Positions Per Company</h3>
+              <div className="card py-3 ">
+                <AgencyCount />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 justify-content-center d-flex text-center mb-3">
+            <div className="requestsCount text-center ">
+              <h3>Job Requests Pending vs Moved to position</h3>
+              <div className="card py-3 ">
+                <RequestsCount />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
-  return <div>Positions</div>;
+    </>
+  );
 }

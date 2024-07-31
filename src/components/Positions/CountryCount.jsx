@@ -5,22 +5,22 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function ExpYearsChart() {
+export default function CountryCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/candidate-exp-years-count`)
+      .get(`http://localhost:5000/position-country-count`)
       .then((res) => {
-        const labels = Object.keys(res.data[0]);
-        const values = Object.values(res.data[0]);
+        const labels = res?.data.map((res)=>res.country);
+    const values = res?.data.map((res)=>res.count);
 
         setChartData({
           labels: labels,
           datasets: [
             {
-              label: "Candidates per years of Experience",
+              label: "Vacancies per Country",
               data: values,
               backgroundColor: [
                 "rgba(54, 162, 235, 0.2)", 
@@ -82,7 +82,7 @@ export default function ExpYearsChart() {
         <Doughnut
           data={chartData}
           options={chartOptions}
-          className="w-full md:w-30rem"
+          className="w-full "
           style={{ height: "400px", width: "100%" }}
         />
       </div>

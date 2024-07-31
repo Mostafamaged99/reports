@@ -15,7 +15,7 @@ export default function Candidates() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 justify-content-center d-flex text-center">
             <div className="topInsitute text-center ">
               <h3>Top 10 Institute</h3>
               <div className="card py-3 ">

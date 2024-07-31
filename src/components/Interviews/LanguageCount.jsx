@@ -5,13 +5,13 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function ExpYearsChart() {
+export default function LanguageCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/candidate-exp-years-count`)
+      .get(`http://localhost:5000/interviews-language-count`)
       .then((res) => {
         const labels = Object.keys(res.data[0]);
         const values = Object.values(res.data[0]);
@@ -20,7 +20,7 @@ export default function ExpYearsChart() {
           labels: labels,
           datasets: [
             {
-              label: "Candidates per years of Experience",
+              label: "Interviews count by Language",
               data: values,
               backgroundColor: [
                 "rgba(54, 162, 235, 0.2)", 
