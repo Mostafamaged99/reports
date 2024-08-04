@@ -3,7 +3,8 @@
     {
       "1": 57,
       "2": 6,
-      "11": 1
+      "11": 1,
+      "id": "aadc"
     }
   ],
   "candidate-institutes-count": [
@@ -17,229 +18,273 @@
       "nahda university": 2,
       "stanford university": 2,
       "university of lincoln": 2,
-      "university of ottawa": 2
+      "university of ottawa": 2,
+      "id": "7bed"
     }
   ],
-
   "position-open-days": [
     {
       "avgOpenDays": "10",
       "positionId": "9jG9PPEHNNsxF6y0ma8YC",
-      "positionName": "New for Many Evaluations"
+      "positionName": "New for Many Evaluations",
+      "id": "b184"
     },
     {
       "avgOpenDays": "41",
       "positionId": "vizBIULs45w7hQfQSJgtb",
-      "positionName": "New pos with many status"
+      "positionName": "New pos with many status",
+      "id": "abf0"
     },
     {
       "avgOpenDays": "7",
       "positionId": "NHv_2SMQcZS4wszLCpXTx",
-      "positionName": "rEQ TO BE TUREDN"
+      "positionName": "rEQ TO BE TUREDN",
+      "id": "73a2"
     },
     {
       "avgOpenDays": "10",
       "positionId": "VFXvs0AyqUHuhN2O7InvI",
-      "positionName": "New Evaluation Position"
+      "positionName": "New Evaluation Position",
+      "id": "0bcf"
     },
     {
       "avgOpenDays": "10",
       "positionId": "wNISpNAvfftXFDM_oXE-n",
-      "positionName": "New EVal Weight Limit"
+      "positionName": "New EVal Weight Limit",
+      "id": "da22"
     },
     {
       "avgOpenDays": "15",
       "positionId": "l27Zh6edLv8GP0f4aN-D3",
-      "positionName": "new eval TEST"
+      "positionName": "new eval TEST",
+      "id": "df0e"
     },
     {
       "avgOpenDays": "78",
       "positionId": "DsDs9Ec4g25PExRDPu995",
-      "positionName": "New Position for Eval Test"
+      "positionName": "New Position for Eval Test",
+      "id": "02b8"
     },
     {
       "avgOpenDays": "198",
       "positionId": "vkZzoPgv77YWOoUkftbZx",
-      "positionName": "eh htetms7i"
+      "positionName": "eh htetms7i",
+      "id": "78ad"
     },
     {
       "avgOpenDays": "90",
       "positionId": "DMVgS4Xzjk3hs53wVoEiX",
-      "positionName": "test elim pos"
+      "positionName": "test elim pos",
+      "id": "e0d9"
     },
     {
       "avgOpenDays": "7",
       "positionId": "rQzeZHk_6dMaB1EM0hJ64",
-      "positionName": "New Req Bgd test b2a"
+      "positionName": "New Req Bgd test b2a",
+      "id": "a56d"
     },
     {
       "avgOpenDays": "7",
       "positionId": "deuprH7pSjidENjYHP2ym",
-      "positionName": "duplicate ehhhhh"
+      "positionName": "duplicate ehhhhh",
+      "id": "f37a"
     },
     {
       "avgOpenDays": "7",
       "positionId": "fwSIRGfty1gdkDLhuCmZ6",
-      "positionName": "dupli gcvg"
+      "positionName": "dupli gcvg",
+      "id": "43d3"
     },
     {
       "avgOpenDays": "212",
       "positionId": "NytDYMo2fdvD0uaX5lu4D",
-      "positionName": "test company"
+      "positionName": "test company",
+      "id": "eba7"
     },
     {
       "avgOpenDays": "15",
       "positionId": "xOuj5jGmfD8qyBuBcYYCd",
-      "positionName": "vhgvhg"
+      "positionName": "vhgvhg",
+      "id": "98ff"
     },
     {
       "avgOpenDays": "10",
       "positionId": "zJinn0OnBdDBUtgVJ8Od2",
-      "positionName": "bbv"
+      "positionName": "bbv",
+      "id": "9ff4"
     },
     {
       "avgOpenDays": "10",
       "positionId": "oPSbfo5K3cO7lSNyO9F4P",
-      "positionName": "ne wjdjd"
+      "positionName": "ne wjdjd",
+      "id": "4122"
     },
     {
       "avgOpenDays": "10",
       "positionId": "KDHDHnKXr_406LFirhm-o",
-      "positionName": "Evaluation Position"
+      "positionName": "Evaluation Position",
+      "id": "6396"
     },
     {
       "avgOpenDays": "10",
       "positionId": "zXS_XH8MGwUT1aK3UY0_5",
-      "positionName": "efxg"
+      "positionName": "efxg",
+      "id": "ccde"
     },
     {
       "avgOpenDays": "11",
       "positionId": "X9vll_pSnRzrrQwUpuHR0",
-      "positionName": "newwww"
+      "positionName": "newwww",
+      "id": "27ca"
     },
     {
       "avgOpenDays": "41",
       "positionId": "knpzuMbdeEZ7-PdeP1iWs",
-      "positionName": "New Eval Cycle"
+      "positionName": "New Eval Cycle",
+      "id": "7782"
     },
     {
       "avgOpenDays": "105",
       "positionId": "5AZNcV-Kk-vwmEYQJq-BX",
-      "positionName": "Full Position"
+      "positionName": "Full Position",
+      "id": "a5e2"
     },
     {
       "avgOpenDays": "308",
       "positionId": "zgMw4nkxYUZ3ASpyeCnJR",
-      "positionName": "test suggestion"
+      "positionName": "test suggestion",
+      "id": "7baf"
     },
     {
       "avgOpenDays": "65",
       "positionId": "y-un4TuGANsmnss7c6dIo",
-      "positionName": "test internal"
+      "positionName": "test internal",
+      "id": "40ac"
     },
     {
       "avgOpenDays": "124",
       "positionId": "tEQJd4g1dPytxFBdOwSvT",
-      "positionName": "test"
+      "positionName": "test",
+      "id": "08a8"
     },
     {
       "avgOpenDays": "49",
       "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
-      "positionName": "TEST App Position"
+      "positionName": "TEST App Position",
+      "id": "ef13"
     },
     {
       "avgOpenDays": "10",
       "positionId": "4VcuhKu68Kh0VEz1y-fMI",
-      "positionName": "hsfsdhf"
+      "positionName": "hsfsdhf",
+      "id": "ad00"
     },
     {
       "avgOpenDays": "10",
       "positionId": "5Vku1Yx93LM_cOyasVKkN",
-      "positionName": "Three Evaluations"
+      "positionName": "Three Evaluations",
+      "id": "9879"
     },
     {
       "avgOpenDays": "76",
       "positionId": "DbxTH5vzGO7q_jgExJb_n",
-      "positionName": "NEW POSITION WITH NOT 100 EVAL"
+      "positionName": "NEW POSITION WITH NOT 100 EVAL",
+      "id": "988b"
     },
     {
       "avgOpenDays": "121",
       "positionId": "Ps981Y3pNRdaMKUnA-T8j",
-      "positionName": "test prexisting success"
+      "positionName": "test prexisting success",
+      "id": "3e0d"
     },
     {
       "avgOpenDays": "10",
       "positionId": "FW905HB9ttyxjleM9BzFX",
-      "positionName": "test others"
+      "positionName": "test others",
+      "id": "e261"
     },
     {
       "avgOpenDays": "7",
       "positionId": "qFvXLFgswnSvzmV61b4lR",
-      "positionName": "New Test 3'yaret"
+      "positionName": "New Test 3'yaret",
+      "id": "6cda"
     },
     {
       "avgOpenDays": "10",
       "positionId": "CyroUc77AsqJkRDgLUI90",
-      "positionName": "5 stages"
+      "positionName": "5 stages",
+      "id": "9396"
     },
     {
       "avgOpenDays": "15",
       "positionId": "BC1iIbhcyjz2kVBtM4ULr",
-      "positionName": "fxgfxgf"
+      "positionName": "fxgfxgf",
+      "id": "c4eb"
     },
     {
       "avgOpenDays": "10",
       "positionId": "6PQHS8bkeXgEeoE1QFgOk",
-      "positionName": "New position with new elim"
+      "positionName": "New position with new elim",
+      "id": "b298"
     },
     {
       "avgOpenDays": "93",
       "positionId": "yqIh2SuYDaPrRZYGLn2Q9",
-      "positionName": "frontend developer"
+      "positionName": "frontend developer",
+      "id": "422a"
     },
     {
       "avgOpenDays": "13",
       "positionId": "2hYNALxPPUprCl9wf17v5",
-      "positionName": "NEW POITION WITH VALIDATE EVAL"
+      "positionName": "NEW POITION WITH VALIDATE EVAL",
+      "id": "dd14"
     },
     {
       "avgOpenDays": "41",
       "positionId": "9AsPvv-O1189p4clxcvGv",
-      "positionName": "no mcq ques"
+      "positionName": "no mcq ques",
+      "id": "835b"
     },
     {
       "avgOpenDays": "22",
       "positionId": "RlSlZ56DP_aK5dBYhZk7q",
-      "positionName": "eh htetms7i"
+      "positionName": "eh htetms7i",
+      "id": "0305"
     },
     {
       "avgOpenDays": "10",
       "positionId": "eLGeHxZ-4vT8iZHTy72gL",
-      "positionName": "New jsdh"
+      "positionName": "New jsdh",
+      "id": "5a86"
     }
   ],
   "agency-active-positions-count": [
     {
       "positionTitle": "Internal link",
-      "company": "org 1"
+      "company": "org 1",
+      "id": "bead"
     },
     {
       "positionTitle": "New position",
-      "company": "org 2"
+      "company": "org 2",
+      "id": "df80"
     },
     {
       "positionTitle": "New position",
-      "company": "org 3"
+      "company": "org 3",
+      "id": "3b9c"
     }
   ],
   "position-country-count": [
     {
       "count": 38,
-      "country": "Egypt"
+      "country": "Egypt",
+      "id": "a0de"
     },
     {
       "count": 1,
-      "country": "Bosnia and Herzegovina"
+      "country": "Bosnia and Herzegovina",
+      "id": "36c6"
     }
   ],
   "totalActivePositions": 39,
@@ -247,20 +292,22 @@
     {
       "pendingJobRequests": 1,
       "publishedJobRequests": 31,
-      "total": 32
+      "total": 32,
+      "id": "8f30"
     }
   ],
-
   "positions-hiring-priority-count": [
     {
       "Medium": 38,
-      "Urgent": 1
+      "Urgent": 1,
+      "id": "d021"
     }
   ],
   "positions-workplace-type-count": [
     {
       "On-Site": 36,
-      "Remote": 3
+      "Remote": 3,
+      "id": "0e03"
     }
   ],
   "positions-employment-type-count": [
@@ -268,226 +315,376 @@
       "Freelance": 2,
       "Full-Time": 35,
       "Internship": 1,
-      "Part-Time": 1
+      "Part-Time": 1,
+      "id": "c89e"
     }
   ],
   "position-hiring-requests": [
     {
       "external": 39,
-      "internal": 4
+      "internal": 4,
+      "id": "997f"
     }
   ],
   "approval_requests_count": [
     {
       "Approved": 37,
       "Pending": 42,
-      "Rejected": 6
+      "Rejected": 6,
+      "id": "964d"
     }
   ],
-
   "requisitions-count": [
     {
       "Expansion": 50,
       "jobHolderPromotion": 1,
       "replacement": 3,
-      "total": 54
+      "total": 54,
+      "id": "29ed"
     }
   ],
   "applications-position-count": [
     {
       "applicationsCount": 30,
       "positionId": "9jG9PPEHNNsxF6y0ma8YC",
-      "positionTitle": "New for Many Evaluations"
+      "positionTitle": "New for Many Evaluations",
+      "id": "265c"
     },
     {
       "applicationsCount": 2,
       "positionId": "vizBIULs45w7hQfQSJgtb",
-      "positionTitle": "New pos with many status"
+      "positionTitle": "New pos with many status",
+      "id": "a84f"
     },
     {
       "applicationsCount": 3,
       "positionId": "NHv_2SMQcZS4wszLCpXTx",
-      "positionTitle": "rEQ TO BE TUREDN"
+      "positionTitle": "rEQ TO BE TUREDN",
+      "id": "4bf5"
     },
     {
       "applicationsCount": 3,
       "positionId": "VFXvs0AyqUHuhN2O7InvI",
-      "positionTitle": "New Evaluation Position"
+      "positionTitle": "New Evaluation Position",
+      "id": "f1ac"
     },
     {
       "applicationsCount": 0,
       "positionId": "l27Zh6edLv8GP0f4aN-D3",
-      "positionTitle": "new eval TEST"
+      "positionTitle": "new eval TEST",
+      "id": "4f65"
     },
     {
       "applicationsCount": 10,
       "positionId": "wNISpNAvfftXFDM_oXE-n",
-      "positionTitle": "New EVal Weight Limit"
+      "positionTitle": "New EVal Weight Limit",
+      "id": "ee56"
     },
     {
       "applicationsCount": 5,
       "positionId": "DsDs9Ec4g25PExRDPu995",
-      "positionTitle": "New Position for Eval Test"
+      "positionTitle": "New Position for Eval Test",
+      "id": "c010"
     },
     {
       "applicationsCount": 10,
       "positionId": "vkZzoPgv77YWOoUkftbZx",
-      "positionTitle": "eh htetms7i"
+      "positionTitle": "eh htetms7i",
+      "id": "a30e"
     },
     {
       "applicationsCount": 1,
       "positionId": "DMVgS4Xzjk3hs53wVoEiX",
-      "positionTitle": "test elim pos"
+      "positionTitle": "test elim pos",
+      "id": "fb99"
     },
     {
       "applicationsCount": 39,
       "positionId": "rQzeZHk_6dMaB1EM0hJ64",
-      "positionTitle": "New Req Bgd test b2a"
+      "positionTitle": "New Req Bgd test b2a",
+      "id": "afc3"
     },
     {
       "applicationsCount": 1,
       "positionId": "deuprH7pSjidENjYHP2ym",
-      "positionTitle": "duplicate ehhhhh"
+      "positionTitle": "duplicate ehhhhh",
+      "id": "ca3b"
     },
     {
       "applicationsCount": 2,
       "positionId": "fwSIRGfty1gdkDLhuCmZ6",
-      "positionTitle": "dupli gcvg"
+      "positionTitle": "dupli gcvg",
+      "id": "6763"
     },
     {
       "applicationsCount": 0,
       "positionId": "NytDYMo2fdvD0uaX5lu4D",
-      "positionTitle": "test company"
+      "positionTitle": "test company",
+      "id": "ca79"
     },
     {
       "applicationsCount": 0,
       "positionId": "xOuj5jGmfD8qyBuBcYYCd",
-      "positionTitle": "vhgvhg"
+      "positionTitle": "vhgvhg",
+      "id": "f47c"
     },
     {
       "applicationsCount": 0,
       "positionId": "zJinn0OnBdDBUtgVJ8Od2",
-      "positionTitle": "bbv"
+      "positionTitle": "bbv",
+      "id": "5b70"
     },
     {
       "applicationsCount": 0,
       "positionId": "oPSbfo5K3cO7lSNyO9F4P",
-      "positionTitle": "ne wjdjd"
+      "positionTitle": "ne wjdjd",
+      "id": "3983"
     },
     {
       "applicationsCount": 53,
       "positionId": "KDHDHnKXr_406LFirhm-o",
-      "positionTitle": "Evaluation Position"
+      "positionTitle": "Evaluation Position",
+      "id": "b6a4"
     },
     {
       "applicationsCount": 0,
       "positionId": "zXS_XH8MGwUT1aK3UY0_5",
-      "positionTitle": "efxg"
+      "positionTitle": "efxg",
+      "id": "074d"
     },
     {
       "applicationsCount": 9,
       "positionId": "X9vll_pSnRzrrQwUpuHR0",
-      "positionTitle": "newwww"
+      "positionTitle": "newwww",
+      "id": "54db"
     },
     {
       "applicationsCount": 42,
       "positionId": "knpzuMbdeEZ7-PdeP1iWs",
-      "positionTitle": "New Eval Cycle"
+      "positionTitle": "New Eval Cycle",
+      "id": "25e5"
     },
     {
       "applicationsCount": 11,
       "positionId": "5AZNcV-Kk-vwmEYQJq-BX",
-      "positionTitle": "Full Position"
+      "positionTitle": "Full Position",
+      "id": "1400"
     },
     {
       "applicationsCount": 1,
       "positionId": "zgMw4nkxYUZ3ASpyeCnJR",
-      "positionTitle": "test suggestion"
+      "positionTitle": "test suggestion",
+      "id": "7efc"
     },
     {
       "applicationsCount": 5,
       "positionId": "y-un4TuGANsmnss7c6dIo",
-      "positionTitle": "test internal"
+      "positionTitle": "test internal",
+      "id": "7c97"
     },
     {
       "applicationsCount": 1,
       "positionId": "tEQJd4g1dPytxFBdOwSvT",
-      "positionTitle": "test"
+      "positionTitle": "test",
+      "id": "2759"
     },
     {
       "applicationsCount": 9,
       "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
-      "positionTitle": "TEST App Position"
+      "positionTitle": "TEST App Position",
+      "id": "71f3"
     },
     {
       "applicationsCount": 20,
       "positionId": "4VcuhKu68Kh0VEz1y-fMI",
-      "positionTitle": "hsfsdhf"
+      "positionTitle": "hsfsdhf",
+      "id": "13d7"
     },
     {
       "applicationsCount": 10,
       "positionId": "DbxTH5vzGO7q_jgExJb_n",
-      "positionTitle": "NEW POSITION WITH NOT 100 EVAL"
+      "positionTitle": "NEW POSITION WITH NOT 100 EVAL",
+      "id": "9ff8"
     },
     {
       "applicationsCount": 10,
       "positionId": "5Vku1Yx93LM_cOyasVKkN",
-      "positionTitle": "Three Evaluations"
+      "positionTitle": "Three Evaluations",
+      "id": "8b65"
     },
     {
       "applicationsCount": 0,
       "positionId": "Ps981Y3pNRdaMKUnA-T8j",
-      "positionTitle": "test prexisting success"
+      "positionTitle": "test prexisting success",
+      "id": "d98a"
     },
     {
       "applicationsCount": 1,
       "positionId": "FW905HB9ttyxjleM9BzFX",
-      "positionTitle": "test others"
+      "positionTitle": "test others",
+      "id": "02ba"
     },
     {
       "applicationsCount": 2,
       "positionId": "qFvXLFgswnSvzmV61b4lR",
-      "positionTitle": "New Test 3'yaret"
+      "positionTitle": "New Test 3'yaret",
+      "id": "b82f"
     },
     {
       "applicationsCount": 0,
       "positionId": "BC1iIbhcyjz2kVBtM4ULr",
-      "positionTitle": "fxgfxgf"
+      "positionTitle": "fxgfxgf",
+      "id": "e13b"
     },
     {
       "applicationsCount": 10,
       "positionId": "CyroUc77AsqJkRDgLUI90",
-      "positionTitle": "5 stages"
+      "positionTitle": "5 stages",
+      "id": "47da"
     },
     {
       "applicationsCount": 2,
       "positionId": "6PQHS8bkeXgEeoE1QFgOk",
-      "positionTitle": "New position with new elim"
+      "positionTitle": "New position with new elim",
+      "id": "9b16"
     },
     {
       "applicationsCount": 12,
       "positionId": "yqIh2SuYDaPrRZYGLn2Q9",
-      "positionTitle": "frontend developer"
+      "positionTitle": "frontend developer",
+      "id": "347d"
     },
     {
       "applicationsCount": 0,
       "positionId": "2hYNALxPPUprCl9wf17v5",
-      "positionTitle": "NEW POITION WITH VALIDATE EVAL"
+      "positionTitle": "NEW POITION WITH VALIDATE EVAL",
+      "id": "9d55"
     },
     {
       "applicationsCount": 2,
       "positionId": "9AsPvv-O1189p4clxcvGv",
-      "positionTitle": "no mcq ques"
+      "positionTitle": "no mcq ques",
+      "id": "5287"
     },
     {
       "applicationsCount": 1,
       "positionId": "RlSlZ56DP_aK5dBYhZk7q",
-      "positionTitle": "eh htetms7i"
+      "positionTitle": "eh htetms7i",
+      "id": "8150"
     },
     {
       "applicationsCount": 0,
       "positionId": "eLGeHxZ-4vT8iZHTy72gL",
-      "positionTitle": "New jsdh"
+      "positionTitle": "New jsdh",
+      "id": "84be"
+    }
+  ],
+  "applications-status-inputs": [
+    {
+      "id": "9ab4",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "e0d4",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "1f44",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "3c69",
+      "status_names": "",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "id": "0d1e",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-20"
+    },
+    {
+      "id": "21d1",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-20"
+    },
+    {
+      "id": "6c4d",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-20"
+    },
+    {
+      "id": "e36b",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-20"
+    },
+    {
+      "id": "5299",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "3e4a",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-30",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "bfe3",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-27"
     }
   ],
   "applications-status-count": [
@@ -752,13 +949,90 @@
       "statusName": "Offered"
     }
   ],
+  "all-position-stages": [
+    [
+      {
+        "stage": "Offer"
+      },
+      {
+        "stage": "EVALUATION1"
+      },
+      {
+        "stage": "EVALUATION"
+      },
+      {
+        "stage": "Hiring6"
+      },
+      {
+        "stage": "test"
+      },
+      {
+        "stage": "evaaa"
+      },
+      {
+        "stage": "Offer555"
+      },
+      {
+        "stage": "text tage"
+      },
+      {
+        "stage": "vid stage"
+      },
+      {
+        "stage": "hh"
+      },
+      {
+        "stage": "Talentino Screening Interview"
+      },
+      {
+        "stage": "form stage"
+      },
+      {
+        "stage": "ecal45"
+      },
+      {
+        "stage": "Technical Interview5"
+      },
+      {
+        "stage": "Hiring"
+      },
+      {
+        "stage": "EVAL2"
+      },
+      {
+        "stage": "Sourcing Candidates"
+      },
+      {
+        "stage": "EVALUATION2"
+      },
+      {
+        "stage": "In-Person Interview"
+      },
+      {
+        "stage": "Eval3"
+      },
+      {
+        "stage": "new"
+      },
+      {
+        "stage": "Technical Interview"
+      },
+      {
+        "stage": "EVAL"
+      },
+      {
+        "stage": "EVALLL TEST"
+      }
+    ]
+  ],
   "applications-stage-count": [
     {
       "applicationsCountByStage": {
         "Sourcing Candidates": 2
       },
       "positionId": "6PQHS8bkeXgEeoE1QFgOk",
-      "positionTitle": "New position with new elim"
+      "positionTitle": "New position with new elim",
+      "id": "431f"
     },
     {
       "applicationsCountByStage": {
@@ -766,7 +1040,8 @@
         "Talentino Screening Interview": 3
       },
       "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
-      "positionTitle": "TEST App Position"
+      "positionTitle": "TEST App Position",
+      "id": "3ada"
     },
     {
       "applicationsCountByStage": {
@@ -774,28 +1049,85 @@
         "Technical Interview": 1
       },
       "positionId": "CyroUc77AsqJkRDgLUI90",
-      "positionTitle": "5 stages"
+      "positionTitle": "5 stages",
+      "id": "1dae"
     }
   ],
-
+  "applications-stage-inputs": [
+    {
+      "id": "f5e8",
+      "stage_names": [
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "Technical Interview",
+        "hh"
+      ]
+    },
+    {
+      "id": "f796",
+      "stage_names": [
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "hh",
+        "Technical Interview"
+      ]
+    },
+    {
+      "id": "6b88",
+      "stage_names": [
+        "Offer",
+        "EVALUATION1"
+      ]
+    },
+    {
+      "id": "11f2",
+      "stage_names": [
+        "hh",
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "Technical Interview"
+      ]
+    },
+    {
+      "id": "7506",
+      "stage_names": [
+        "hh",
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "Technical Interview"
+      ]
+    },
+    {
+      "id": "6aa3",
+      "stage_names": [
+        "hh",
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "Technical Interview"
+      ]
+    }
+  ],
   "evaluation_forms_count": [
     {
       "Completed": 58,
       "Pending": 102,
-      "total": 160
+      "total": 160,
+      "id": "2b75"
     }
   ],
   "interviews-type-count": [
     {
       "Form": 4,
       "Text": 11,
-      "Video": 787
+      "Video": 787,
+      "id": "51af"
     }
   ],
   "interviews-language-count": [
     {
       "AR": 8,
-      "EN": 794
+      "EN": 794,
+      "id": "e21a"
     }
   ]
 }

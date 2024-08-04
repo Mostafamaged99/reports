@@ -9,16 +9,13 @@ export default function InstituteChart() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
-  const [labels, setLabels] = useState([]);
-  const [selectedLabel, setSelectedLabel] = useState("");
   useEffect(() => {
     axios
       .get(`http://localhost:5000/candidate-institutes-count`)
       .then((res) => {
-        const labelsData = Object.keys(res.data[0]);
-        const valuesData = Object.values(res.data[0]);
-        setLabels(labelsData);
-        setSelectedLabel(labelsData[0]);
+        const { id, ...filteredData } = res.data[0];
+        const labelsData = Object.keys(filteredData);
+        const valuesData = Object.values(filteredData);
 
         setChartData({
           labels: labelsData,
@@ -53,7 +50,10 @@ export default function InstituteChart() {
           responsive: true,
           plugins: {
             legend: {
-              display: false,
+              position: "right",
+              labels: {
+                usePointStyle: true,
+              },
             },
           },
         });
@@ -61,10 +61,6 @@ export default function InstituteChart() {
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, []);
-
-  const handelLabelChange = (e) => {
-    setSelectedLabel(e.target.value);
-  };
 
   if (loading) {
     return (
@@ -84,24 +80,13 @@ export default function InstituteChart() {
 
   return (
     <>
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <select value={selectedLabel} onChange={handelLabelChange} className="mb-3 p-2 border rounded">
-          {labels.map((label, key) => {
-            return (
-              <option value={label} key={key}>
-                {label}
-              </option>
-            );
-          })}
-        </select>
-        <div className="chart-container d-flex justify-content-center align-items-center">
-          <Doughnut
-            data={chartData}
-            options={chartOptions}
-            className="w-full md:w-30rem"
-            style={{ height: "400px", width: "100%" }}
-          />
-        </div>
+      <div className="chart-container d-flex justify-content-center align-items-center">
+        <Doughnut
+          data={chartData}
+          options={chartOptions}
+          className="w-full md:w-30rem"
+          style={{ height: "400px", width: "100%" }}
+        />
       </div>
     </>
   );

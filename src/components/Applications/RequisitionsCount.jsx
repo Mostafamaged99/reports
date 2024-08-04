@@ -20,8 +20,9 @@ export default function RequisitionsCount() {
     axios
       .get(`http://localhost:5000/requisitions-count`)
       .then((res) => {
-        const labels = Object.keys(res.data[0]);
-        const values = Object.values(res.data[0]);
+        const { id, ...filteredData } = res.data[0];
+        const labels = Object.keys(filteredData);
+        const values = Object.values(filteredData);
 
         setChartData({
           labels: labels,

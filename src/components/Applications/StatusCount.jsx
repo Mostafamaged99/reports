@@ -92,45 +92,82 @@
 
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Button, Container } from "react-bootstrap";
 
 export default function StatusCount() {
   const [dropDownData, setDropDownData] = useState([]);
   const [selectedStatue, setSelectedStatue] = useState("");
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+  const [reportData, setReportData] = useState({});
+  const valuesToCheck = ["Matched", "Invited", "Evaluated"];
   async function getDropDownData() {
     return await axios
       .get(`http://localhost:5000/all-position-stages-status`)
       .then((res) => {
         const data = res.data;
-        console.log(data);
         setDropDownData(data.map((item) => item.statusName));
         return data;
       })
       .catch((err) => console.log(err));
   }
 
-  console.log(dropDownData);
-
-  const handelStatueChange = (e) => {
-    const { checked, value } = e.target;
+  const handleStatusChange = (e) => {
+    const { value, checked } = e.target;
     if (checked) {
-      selectedStatue((prev) => {
-        const updatesStatus = [...prev, value];
-        console.log("if", updatesStatus);
-        return updatesStatus;
+      setSelectedStatue((prev) => {
+        const updatedStatuses = [...prev, value];
+        setSelectedStatue(updatedStatuses);
       });
     } else {
-      selectedStatue((prev) => {
-        const updatesStatus = prev.filter((item) => item !== value);
-        console.log("else", updatesStatus);
-        return updatesStatus;
+      setSelectedStatue((prev) => {
+        const updatedStatuses = prev.filter((status) => status !== value);
+        setSelectedStatue(updatedStatuses);
       });
     }
-    setSelectedStatue(value);
   };
+
+  const handelInputChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "startDate") {
+      setStartDate(value);
+    } else if (name === "endDate") {
+      setEndDate(value);
+    }
+  };
+
+  const dataSent = {
+    status_names: selectedStatue,
+    start_date: startDate,
+    end_date: endDate,
+  };
+
+  async function sendData(data) {
+    await axios
+      .post(`http://localhost:5000/applications-status-inputs`, data)
+      .then(async (res) => {
+        const { id, ...filteredData } = res.data;
+        console.log(filteredData);
+        if (
+          valuesToCheck.every((value) =>
+            filteredData?.status_names.includes(value)
+          )
+        ) {
+          const res = await axios.get(
+            `http://localhost:5000/applications-status-count`
+          );
+          setReportData(res?.data);
+        }
+      })
+      .catch((err) => console.log(err));
+  }
+
 
   useEffect(() => {
     getDropDownData();
-  }, []);
+    console.log("reportData",reportData);
+  }, [reportData]);
+
   return (
     <>
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -139,12 +176,12 @@ export default function StatusCount() {
           <div className="dropdown-menu">
             {dropDownData.map((statue, key) => {
               return (
-                <div className="dropdown-item" key={key}>
+                <div className="dropdown-item " key={key}>
                   <input
+                    className="me-2"
                     type="checkbox"
                     value={statue}
-                    checked={selectedStatue.includes(statue)}
-                    onChange={handelStatueChange}
+                    onChange={handleStatusChange}
                   />
                   <label htmlFor={statue}>{statue}</label>
                 </div>
@@ -153,8 +190,39 @@ export default function StatusCount() {
           </div>
         </div>
       </div>
+      <Container>
+        <div className="row">
+          <div className="col-md-6">
+            <label className="mt-2" htmlFor="start-date">
+              Start Date
+            </label>
+            <input
+              type="date"
+              className="form-control mb-2"
+              //value={startDate}
+              onChange={handelInputChange}
+              id="start-date"
+              name="startDate"
+            />
+          </div>
+          <div className="col-md-6">
+            <label className="mt-2" htmlFor="end-date">
+              End Date
+            </label>
+            <input
+              type="date"
+              className="form-control mb-2"
+              //value={endDate}
+              onChange={handelInputChange}
+              id="end-date"
+              name="endDate"
+            />
+          </div>
+        </div>
+        <Button className="w-100" onClick={() => sendData(dataSent)}>
+          Post data
+        </Button>
+      </Container>
     </>
   );
 }
-
-

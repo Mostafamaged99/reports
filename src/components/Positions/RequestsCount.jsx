@@ -20,8 +20,9 @@ export default function RequestsCount() {
     axios
       .get(`http://localhost:5000/job-requests-count`)
       .then((res) => {
-        const labels = Object.keys(res.data[0]);
-        const values = Object.values(res.data[0]);
+        const { id, ...filteredData } = res.data[0];
+        const labels = Object.keys(filteredData);
+        const values = Object.values(filteredData);
 
         setChartData({
           labels: labels,
@@ -30,16 +31,16 @@ export default function RequestsCount() {
               label: "",
               data: values,
               backgroundColor: [
-                "rgba(54, 162, 235, 0.2)", 
-                "rgb(40, 167, 69,0.2)", 
-                "rgba(255, 206, 86, 0.2)", 
+                "rgba(54, 162, 235, 0.2)",
+                "rgb(40, 167, 69,0.2)",
+                "rgba(255, 206, 86, 0.2)",
                 "rgba(75, 192, 192, 0.2)",
               ],
               hoverBackgroundColor: [
                 "rgb(54, 162, 235)",
-                "rgb(28, 139, 55)", 
-                "rgb(255, 206, 86)", 
-                "rgb(75, 192, 192)", 
+                "rgb(28, 139, 55)",
+                "rgb(255, 206, 86)",
+                "rgb(75, 192, 192)",
               ],
               borderColor: [
                 "rgb(54, 162, 235)",
@@ -56,7 +57,7 @@ export default function RequestsCount() {
           responsive: true,
           plugins: {
             legend: {
-                display: false,
+              display: false,
             },
           },
         });
