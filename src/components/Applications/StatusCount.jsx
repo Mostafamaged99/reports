@@ -162,11 +162,15 @@ export default function StatusCount() {
       .catch((err) => console.log(err));
   }
 
-
   useEffect(() => {
     getDropDownData();
-    console.log("reportData",reportData);
+    console.log("reportData", reportData);
+    // reportData.length? console.log(
+    //   reportData?.map((item) => console.log(Object.keys(item.applicationsCountByStatus)))
+    // ):console.log('no data');
   }, [reportData]);
+
+  
 
   return (
     <>

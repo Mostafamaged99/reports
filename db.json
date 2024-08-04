@@ -685,6 +685,66 @@
       ],
       "start_date": "2024-07-29",
       "end_date": "2024-08-27"
+    },
+    {
+      "id": "2f49",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-09-04"
+    },
+    {
+      "id": "fa22",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-28"
+    },
+    {
+      "id": "3b3c",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-28",
+      "end_date": "2024-08-27"
+    },
+    {
+      "id": "6408",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-22"
+    },
+    {
+      "id": "e278",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-26"
+    },
+    {
+      "id": "20c7",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-21"
     }
   ],
   "applications-status-count": [
