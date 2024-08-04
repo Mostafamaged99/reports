@@ -5,7 +5,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function PriortyCount() {
+export default function PriorityCount() {
   const [loading, setLoading] = useState(true);
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});

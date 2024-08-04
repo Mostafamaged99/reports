@@ -580,7 +580,16 @@
     }
   ],
   "applications-status-inputs": [
-    
+    {
+      "id": "12f3",
+      "status_names": [
+        "Invited",
+        "Evaluated",
+        "Matched"
+      ],
+      "start_date": "2024-07-29",
+      "end_date": "2024-08-21"
+    }
   ],
   "applications-status-count": [
     {
@@ -1084,7 +1093,15 @@
     }
   ],
   "applications-stage-inputs": [
-
+    {
+      "id": "3d29",
+      "stage_names": [
+        "hh",
+        "Talentino Screening Interview",
+        "Sourcing Candidates",
+        "Technical Interview"
+      ]
+    }
   ],
   "evaluation_forms_count": [
     {

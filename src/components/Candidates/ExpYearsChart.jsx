@@ -1,21 +1,21 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Audio } from "react-loader-spinner";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
+import { getExpYearsData } from "../../services/CandidatesData";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function ExpYearsChart() {
   const [loading, setLoading] = useState(true);
-  const [chartData, setChartData] = useState({});
+  const [chartData, setChartData] = useState(null);
   const [chartOptions, setChartOptions] = useState({});
+
   useEffect(() => {
-    axios
-      .get(`http://localhost:5000/candidate-exp-years-count`)
-      .then((res) => {
-        const { id, ...filteredData } = res.data[0];
-        const labels = Object.keys(filteredData);
-        const values = Object.values(filteredData);
+    getExpYearsData()
+      .then((data) => {
+        const { id, ...filteredData } = data;
+          const labels = Object.keys(filteredData);
+          const values = Object.values(filteredData);
 
         setChartData({
           labels: labels,

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Audio } from "react-loader-spinner";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
+import { Dropdown, DropdownButton } from "react-bootstrap";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function PositionCount() {
@@ -85,7 +86,25 @@ export default function PositionCount() {
   return (
     <>
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <select value={selectedLabel} onChange={handelLabelChange} className="mb-3 p-2 border rounded">
+        <DropdownButton value={selectedLabel} onChange={handelLabelChange} className="w-50 mb-3 mx-auto" title="Available Positions">
+          {labels.map((label, key) => {
+            return (
+              <Dropdown.Item key={key} value={label} >
+                {label}
+              </Dropdown.Item>
+            );
+          })}
+        </DropdownButton>
+
+        {/* <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+       
+
+        <select
+          value={selectedLabel}
+          onChange={handelLabelChange}
+          className="mb-3 p-2 border rounded"
+        >
           {labels.map((label, key) => {
             return (
               <option value={label} key={key}>
@@ -93,7 +112,7 @@ export default function PositionCount() {
               </option>
             );
           })}
-        </select>
+        </select> */}
 
         <div className="chart-container d-flex justify-content-center align-items-center">
           <Doughnut
@@ -107,5 +126,3 @@ export default function PositionCount() {
     </>
   );
 }
-
-

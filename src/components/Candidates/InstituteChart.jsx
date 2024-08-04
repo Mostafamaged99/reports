@@ -1,8 +1,8 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Audio } from "react-loader-spinner";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
+import { getInstituteData } from "../../services/CandidatesData";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function InstituteChart() {
@@ -10,10 +10,9 @@ export default function InstituteChart() {
   const [chartData, setChartData] = useState({});
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
-    axios
-      .get(`http://localhost:5000/candidate-institutes-count`)
-      .then((res) => {
-        const { id, ...filteredData } = res.data[0];
+    getInstituteData()
+      .then((data) => {
+        const { id, ...filteredData } = data;
         const labelsData = Object.keys(filteredData);
         const valuesData = Object.values(filteredData);
 
@@ -21,7 +20,7 @@ export default function InstituteChart() {
           labels: labelsData,
           datasets: [
             {
-              label: "Candidates per insitute",
+              label: "Candidates per institute",
               data: valuesData,
               backgroundColor: [
                 "rgba(54, 162, 235, 0.2)",
