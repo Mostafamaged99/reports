@@ -580,172 +580,7 @@
     }
   ],
   "applications-status-inputs": [
-    {
-      "id": "9ab4",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "e0d4",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "1f44",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "3c69",
-      "status_names": "",
-      "start_date": "",
-      "end_date": ""
-    },
-    {
-      "id": "0d1e",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-20"
-    },
-    {
-      "id": "21d1",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-20"
-    },
-    {
-      "id": "6c4d",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-20"
-    },
-    {
-      "id": "e36b",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-20"
-    },
-    {
-      "id": "5299",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "3e4a",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-30",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "bfe3",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "2f49",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-09-04"
-    },
-    {
-      "id": "fa22",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-28"
-    },
-    {
-      "id": "3b3c",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-28",
-      "end_date": "2024-08-27"
-    },
-    {
-      "id": "6408",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-22"
-    },
-    {
-      "id": "e278",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-26"
-    },
-    {
-      "id": "20c7",
-      "status_names": [
-        "Invited",
-        "Evaluated",
-        "Matched"
-      ],
-      "start_date": "2024-07-29",
-      "end_date": "2024-08-21"
-    }
+    
   ],
   "applications-status-count": [
     {
@@ -1091,8 +926,7 @@
         "Sourcing Candidates": 2
       },
       "positionId": "6PQHS8bkeXgEeoE1QFgOk",
-      "positionTitle": "New position with new elim",
-      "id": "431f"
+      "positionTitle": "New position with new elim"
     },
     {
       "applicationsCountByStage": {
@@ -1100,8 +934,7 @@
         "Talentino Screening Interview": 3
       },
       "positionId": "Jy_f-TTx_pFNm5GOFWgt2",
-      "positionTitle": "TEST App Position",
-      "id": "3ada"
+      "positionTitle": "TEST App Position"
     },
     {
       "applicationsCountByStage": {
@@ -1109,63 +942,149 @@
         "Technical Interview": 1
       },
       "positionId": "CyroUc77AsqJkRDgLUI90",
-      "positionTitle": "5 stages",
-      "id": "1dae"
+      "positionTitle": "5 stages"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 7,
+        "Talentino Screening Interview": 2,
+        "Technical Interview": 1
+      },
+      "positionId": "yqIh2SuYDaPrRZYGLn2Q9",
+      "positionTitle": "frontend developer"
+    },
+    {
+      "applicationsCountByStage": {
+        "Talentino Screening Interview": 1
+      },
+      "positionId": "RlSlZ56DP_aK5dBYhZk7q",
+      "positionTitle": "eh htetms7i"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1
+      },
+      "positionId": "NHv_2SMQcZS4wszLCpXTx",
+      "positionTitle": "rEQ TO BE TUREDN"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1,
+        "Talentino Screening Interview": 1
+      },
+      "positionId": "vizBIULs45w7hQfQSJgtb",
+      "positionTitle": "New pos with many status"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1
+      },
+      "positionId": "zgMw4nkxYUZ3ASpyeCnJR",
+      "positionTitle": "test suggestion"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 9
+      },
+      "positionId": "X9vll_pSnRzrrQwUpuHR0",
+      "positionTitle": "newwww"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1,
+        "Talentino Screening Interview": 2
+      },
+      "positionId": "4VcuhKu68Kh0VEz1y-fMI",
+      "positionTitle": "hsfsdhf"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 7,
+        "Talentino Screening Interview": 1
+      },
+      "positionId": "5AZNcV-Kk-vwmEYQJq-BX",
+      "positionTitle": "Full Position"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1
+      },
+      "positionId": "wNISpNAvfftXFDM_oXE-n",
+      "positionTitle": "New EVal Weight Limit"
+    },
+    {
+      "applicationsCountByStage": {
+        "Talentino Screening Interview": 1
+      },
+      "positionId": "DMVgS4Xzjk3hs53wVoEiX",
+      "positionTitle": "test elim pos"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 9
+      },
+      "positionId": "DbxTH5vzGO7q_jgExJb_n",
+      "positionTitle": "NEW POSITION WITH NOT 100 EVAL"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 2
+      },
+      "positionId": "qFvXLFgswnSvzmV61b4lR",
+      "positionTitle": "New Test 3'yaret"
+    },
+    {
+      "applicationsCountByStage": {
+        "hh": 10
+      },
+      "positionId": "vkZzoPgv77YWOoUkftbZx",
+      "positionTitle": "eh htetms7i"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 5
+      },
+      "positionId": "y-un4TuGANsmnss7c6dIo",
+      "positionTitle": "test internal"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1
+      },
+      "positionId": "5Vku1Yx93LM_cOyasVKkN",
+      "positionTitle": "Three Evaluations"
+    },
+    {
+      "applicationsCountByStage": {
+        "Talentino Screening Interview": 4
+      },
+      "positionId": "DsDs9Ec4g25PExRDPu995",
+      "positionTitle": "New Position for Eval Test"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 2
+      },
+      "positionId": "9AsPvv-O1189p4clxcvGv",
+      "positionTitle": "no mcq ques"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 25
+      },
+      "positionId": "9jG9PPEHNNsxF6y0ma8YC",
+      "positionTitle": "New for Many Evaluations"
+    },
+    {
+      "applicationsCountByStage": {
+        "Sourcing Candidates": 1
+      },
+      "positionId": "tEQJd4g1dPytxFBdOwSvT",
+      "positionTitle": "test"
     }
   ],
   "applications-stage-inputs": [
-    {
-      "id": "f5e8",
-      "stage_names": [
-        "Talentino Screening Interview",
-        "Sourcing Candidates",
-        "Technical Interview",
-        "hh"
-      ]
-    },
-    {
-      "id": "f796",
-      "stage_names": [
-        "Talentino Screening Interview",
-        "Sourcing Candidates",
-        "hh",
-        "Technical Interview"
-      ]
-    },
-    {
-      "id": "6b88",
-      "stage_names": [
-        "Offer",
-        "EVALUATION1"
-      ]
-    },
-    {
-      "id": "11f2",
-      "stage_names": [
-        "hh",
-        "Talentino Screening Interview",
-        "Sourcing Candidates",
-        "Technical Interview"
-      ]
-    },
-    {
-      "id": "7506",
-      "stage_names": [
-        "hh",
-        "Talentino Screening Interview",
-        "Sourcing Candidates",
-        "Technical Interview"
-      ]
-    },
-    {
-      "id": "6aa3",
-      "stage_names": [
-        "hh",
-        "Talentino Screening Interview",
-        "Sourcing Candidates",
-        "Technical Interview"
-      ]
-    }
+
   ],
   "evaluation_forms_count": [
     {
