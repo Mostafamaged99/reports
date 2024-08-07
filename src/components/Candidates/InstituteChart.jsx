@@ -79,7 +79,7 @@ export default function InstituteChart() {
 
   return (
     <>
-      <div className="chart-container d-flex justify-content-center align-items-center">
+      <div className="chart-container d-flex justify-content-center align-items-center px-3">
         <Doughnut
           data={chartData}
           options={chartOptions}

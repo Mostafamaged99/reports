@@ -50,6 +50,7 @@ export default function ExpYearsChart() {
           responsive: true,
           plugins: {
             legend: {
+              position:"right",
               labels: {
                 usePointStyle: true,
               },

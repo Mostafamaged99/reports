@@ -1,14 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-info m-3 sticky-top ">
-        <div className="container-fluid ">
-          {/* <Link className="navbar-brand text-white fs-5 mx-5" to="/Candidates">
-            Talentio
-          </Link> */}
+      <Navbar className="navbar navbar-expand-lg bg-info m-3 sticky-top ">
+        <Container>
           <button
             className="navbar-toggler"
             type="button"
@@ -49,8 +47,8 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </Container>
+      </Navbar>
     </>
   );
 }
