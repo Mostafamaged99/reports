@@ -1,6 +1,6 @@
 import React from "react";
 import CountryCount from "./CountryCount";
-import OpenDays from "./OpenDays";
+import OpenDays from "./Opendays";
 import AgencyCount from "./AgencyCount";
 import RequestsCount from "./RequestsCount";
 import { Container } from "react-bootstrap";
